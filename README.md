@@ -13,6 +13,8 @@
 A two‑part automation that onboards restaurants, matches them to customer orders by location and budget, dispatches order requests, and processes restaurant accept/decline responses — all without manual intervention.
 
 **Tech Stack:** Make.com, Google Forms, Google Sheets, Brevo, Router, Filters.
+![Restaurant Workflow](Restaurant%20workflow.jpeg)
+![Meal Bridge Response Handler](Meal%20Bridge%20Response%20Handler.jpeg)
 
 ---
 
@@ -63,6 +65,7 @@ A two‑part automation that onboards restaurants, matches them to customer orde
 An AI‑powered lead qualification system that captures leads, uses Google Gemini to analyze intent, scores them as HOT/WARM/LOW, and routes them to the appropriate follow‑up action.
 
 **Tech Stack:** Make.com, Tally (Webhook), Google Sheets, Google Gemini AI, Brevo, Router.
+![Sales Agent Canvas](AI%20Sales%20Lead%20Qualification%20Agent.jpeg)
 
 **Workflow:**
 1. Webhook captures Tally form submission.
@@ -86,6 +89,7 @@ An AI‑powered lead qualification system that captures leads, uses Google Gemin
 An autonomous AI support agent that answers customer questions using a company knowledge base, and escalates to a human when the AI cannot answer.
 
 **Tech Stack:** Make.com, Tally, Google Sheets, Google Docs (Knowledge Base), Google Gemini AI, Brevo, Router (with fallback).
+![Support Agent Canvas](Customer%20Support%20Agent.jpeg)
 
 **Workflow:**
 1. Webhook captures support question from Tally.
@@ -125,3 +129,6 @@ An autonomous AI support agent that answers customer questions using a company k
 **Contact:** asuquopatrick54@gmail.com  
 **Location:** Nigeria  
 **Availability:** Open to freelance and full-time automation roles.
+
+
+

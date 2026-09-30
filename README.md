@@ -1,4 +1,4 @@
-# Patrick Asuquo — AI Automation Portfolio
+# Asuquo Patrick — AI Automation Portfolio
 
 **Role:** AI Automation Specialist  
 **Core Stack:** Make.com, Google Workspace, Brevo, Google Gemini AI, Tally, n8n (learning)  

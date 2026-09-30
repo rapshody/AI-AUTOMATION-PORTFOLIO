@@ -5,7 +5,7 @@
 **Core Stack:** Make.com, Google Workspace, Brevo, Google Gemini AI, Tally, n8n (learning)  
 **Focus:** Building AI‑powered business workflows that eliminate manual work and unlock new capabilities.
 
-**[View My Interactive Portfolio on Notion](https://quasar-pepper-2fa.notion.site/Asuquo-Patrick-AI-Automation-Portfolio-1DXc1eazyWTHTq6JMdURSqqrFGTzGL8eF1?source=copy_link)**
+**[View My Interactive Portfolio on Notion][(https://quasar-pepper-2fa.notion.site/Asuquo-Patrick-AI-Automation-Portfolio-1DXc1eazyWTHTq6JMdURSqqrFGTzGL8eF1?source=copy_link](https://quasar-pepper-2fa.notion.site/Asuquo-Patrick-AI-Automation-Portfolio-1DXc1eazyWTHTq6JMdURSqqrFGTzGL8eF1?source=copy_link))**
 
 ---
 

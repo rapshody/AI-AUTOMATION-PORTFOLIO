@@ -1,3 +1,4 @@
+
 # Asuquo Patrick — AI Automation Portfolio
 
 **Role:** AI Automation Specialist  
@@ -6,12 +7,34 @@
 
 ---
 
-## 🍔 Project 1: Meal Bridge — Automated Marketplace Dispatch System
+## 🍔 Project 1: Meal Bridge — Automated Restaurant Dispatch System
 
 **Executive Summary:**  
-A two‑part automation that connects low‑budget customers with local restaurants, dispatches order requests, and processes restaurant responses — all without manual intervention.
+A two‑part automation that onboards restaurants, matches them to customer orders by location and budget, dispatches order requests, and processes restaurant accept/decline responses — all without manual intervention.
 
 **Tech Stack:** Make.com, Google Forms, Google Sheets, Brevo, Router, Filters.
+
+---
+
+### Part 1 – Restaurant Matching Engine
+
+**Purpose:** Build the "Restaurants" database and create the location-matching logic that powers the entire system.
+
+**Workflow:**
+- Maintains a "Restaurants" Google Sheet with columns: `RestaurantName`, `ContactName`, `Email`, `Location`, `MinBudget`, `MaxBudget`, `SodaAvailable`.
+- Watches customer orders and searches the Restaurants sheet for a match.
+- Uses a **Location Match filter** to ensure the customer and restaurant are in the same area.
+- Verifies the restaurant can handle the customer's budget and soda request.
+
+**Key Challenges & Solutions:**
+- **Location filter mismatch:** Fixed by manually remapping the filter to compare `Restaurant Location` with `Customer Location`.
+- **Make.com UI bugs:** Bypassed visual pills by typing formulas manually.
+
+---
+
+### Part 2 – Meal Bridge Dispatch & Response
+
+**Purpose:** Handle the full customer order lifecycle — from form submission to restaurant response.
 
 **Workflow 1 – The Dispatcher:**
 - Watches Google Sheets for new customer orders.
@@ -26,7 +49,7 @@ A two‑part automation that connects low‑budget customers with local restaura
 - Updates Google Sheet status to `Accepted` or `Declined`.
 
 **Key Challenges & Solutions:**
-- **Google OAuth errors:** Pivoted from Gmail to Brevo for reliable email delivery.
+- **Google OAuth errors (403/redirect_uri_mismatch):** Pivoted from Gmail to Brevo for reliable email delivery.
 - **Tally nested data:** Manually mapped fields using `{{1.data.fields[n].value}}`.
 - **Router filter failures:** Used `Matches pattern` regex and fallback routes.
 

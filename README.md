@@ -118,6 +118,31 @@ An autonomous AI support agent that answers customer questions using a company k
 - **Data Management:** Google Sheets as CRM, nested data mapping.
 - **Problem‑Solving:** Debugging OAuth, regex, server errors, and UI quirks.
 
+
+ ##🎥 Project 4: AI Content Repurposer
+
+**Executive Summary:**  
+An AI-powered content engine that monitors a content source (RSS feed), automatically generates platform-specific content (LinkedIn post, Twitter thread, newsletter blurb), logs it in a review dashboard, and notifies the creator when a new draft is ready.
+
+**Tech Stack:** Make.com, RSS (Reddit), Google Gemini AI, JSON Parser, Google Sheets, Brevo.
+
+**Workflow:**
+1. RSS trigger watches a content source for new posts.
+2. Gemini AI analyzes the post and generates: Summary, LinkedIn_Post, Twitter_Thread, Newsletter_Blurb.
+3. JSON Parser structures the AI's output into separate fields.
+4. Google Sheets logs every draft with a `Pending Review` status.
+5. Brevo sends a notification email when a new draft is ready.
+
+**Key Challenges & Solutions:**
+- **YouTube RSS feeds blocked in Nigeria:** Pivoted to Reddit RSS, which is 100% reliable and provides richer text content for AI repurposing.
+- **Gemini rate limits (429):** Implemented a wait-and-retry strategy and reduced test frequency to stay under the free tier quota.
+- **JSON parsing with structured output:** Manually created the `ContentJSON` data structure and mapped the raw `Result` pill to avoid Make.com's UI bugs.
+
+**Outcome:** Fully automated content repurposing engine that saves content creators 3+ hours per week.
+
+
+📄 **[View Detailed Write-Up](./project-4-content-repurposer.md)**
+
 ---
 
 ## 🚀 Next Steps (Roadmap)

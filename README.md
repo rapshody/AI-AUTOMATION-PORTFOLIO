@@ -126,9 +126,11 @@ An autonomous AI support agent that answers customer questions using a company k
 An AI-powered content engine that monitors a content source (RSS feed), automatically generates platform-specific content (LinkedIn post, Twitter thread, newsletter blurb), logs it in a review dashboard, and notifies the creator when a new draft is ready.
 
 **Tech Stack:** Make.com, RSS (Reddit), Google Gemini AI, JSON Parser, Google Sheets, Brevo.
-![Content Repurposer Canvas](content-repurposer-canvas.png)
-![Content Repurposer Sheet](content-repurposer-sheet.png)
-![Content Repurposer Email](content-repurposer-email.png)
+content-repurposer-canvas.png.jpeg
+
+content-repurposer-email.png.jpeg
+
+content-repurposer-sheet.png.jpeg
 
 
 **Workflow:**
